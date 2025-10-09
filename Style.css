@@ -1,0 +1,171 @@
+﻿
+.part1{
+    width:300px;
+    height:50px;
+    margin-top:400px;
+    margin-left:700px;
+   border-bottom:solid 5px black;
+   border-radius:45px;
+    
+}
+.part2{
+    width:280px;
+    height:200px;
+    border-right:solid 5px black;
+    position:relative;
+    left:780px;
+    bottom:250px;
+    border-radius:30px;
+    transform:rotate(35deg);
+}
+.part3{
+    width:280px;
+    height:200px;
+    border-right:solid 5px black;
+    position:relative;
+    left:630px;
+    bottom:455px;
+    border-radius:30px;
+    transform:rotate(145deg);
+}
+.part4 {
+    width: 480px;
+    height: 30px;
+    border-top: solid 5px black;
+    border-radius: 100px;
+    position: relative;
+    bottom: 565px;
+    left: 610px;
+    transform: rotate(1deg);
+    
+}
+.part5 {
+    width: 360px;
+    height: 30px;
+    border-top: solid 5px black;
+    position: relative;
+    bottom: 495px;
+    left: 670px;
+    
+
+}
+.part6 {
+    width: 400px;
+    height: 30px;
+    border-top: solid 5px black;
+    position: relative;
+    bottom: 556px;
+    left: 650px;
+    
+}
+.div1 {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    /*    background-color:aquamarine;*/
+    
+   
+}
+.part7 {
+    width: 30px;
+    height: 30px;
+    border: solid 5px black;
+    border-radius: 360px;
+    background-color: black;
+    position: relative;
+    bottom: 660px;
+    left: 650px;
+   
+}
+.div2 {
+    width: 250px;
+    height: 60px;
+    border: solid 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 710px;
+    transform: rotate(1deg);
+}
+.part8 {
+    width: 20px;
+    height: 20px;
+    border: solid 4px black;
+    border-radius: 360px;
+/*    background-color: black;*/
+   
+}
+#part9 {
+    width: 50px;
+    height: 100px;
+    border: solid 4px black;
+    position: relative;
+    bottom: 978px;
+    left: 750px;
+    transform: rotate(1deg);
+}
+#part10 {
+    width: 80px;
+    height: 10px;
+    border: solid 4px black;
+    position: relative;
+    bottom: 1100px;
+    left: 740px;
+    border-radius:360px;
+    transform: rotate(1deg);
+}
+#part11 {
+    width: 100px;
+    height: 60px;
+    border: solid 4px black;
+    position: relative;
+    bottom: 1060px;
+    left: 807px;
+    transform: rotate(1deg);
+}
+.ocean{
+    width:400px;
+    height:400px;
+}
+.animation{
+    width:800px;
+    height:800px;
+    border-radius:0 0 50px 50px;
+    animation:move 3s ease-in-out infinite;
+}
+@keyframes move {
+    0% {
+        transform:translate(-300px);
+        
+    }
+    100% {
+        transform: translate(400px);
+        
+    }
+}
+#water{
+    width:1520px;
+    height:400px;
+    background-color:aqua;
+    position:relative;
+    bottom:745px;
+}
+/*#sun{
+    width:100px;
+    height:100px;
+    border:solid 5px yellow;
+    border-radius:360px;
+    position:relative;
+    bottom:1560px;
+    left:120px;
+    background-color:red;
+}*/
+
+
+
