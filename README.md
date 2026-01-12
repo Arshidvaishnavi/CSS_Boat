@@ -26,6 +26,7 @@ It includes multiple shapes, lines, and animations to create a creative visual e
 ## Live Demo
 
 Check out the live demo here: https://arshidvaishnavi.github.io/CSS_Boat/
+
 ---
 
 ## How to View
